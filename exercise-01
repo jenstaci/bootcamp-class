@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<TITLE>Things I've Learned</TITLE>
+</HEAD>
+<BODY>
+<H1>Things I've Learned</H1>
+<H2>Internet Basics</H2>
+<OL>
+<LI>HTTP Requests</LI>
+<LI>IP Address</LI>
+<LI>Servers</LI>
+</OL>
+<H2>HTML</H2>
+<UL>
+<LI>Stands for <STRONG>Hyper Text Markup Language</STRONG></LI>
+<LI>Lots of Tags</LI>
+<UL>
+<LI>Boilerplate</LI>
+<OL>
+<LI>Doctyple</LI>
+<LI>HTML</LI>
+<LI>Head</LI>
+<OL>
+<LI>Title</LI>
+</OL>
+<LI>Body</LI>
+</OL>
+<LI>Headings</LI>
+<LI>Paragraphs</LI>
+<LI><EMPHASIS>em</EMPHASIS></LI>
+<LI><STRONG>strong</STRONG></LI>
+</UL>
+</BODY>
+</HTML>
