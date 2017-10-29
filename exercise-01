@@ -16,16 +16,18 @@
 <LI>Stands for <STRONG>Hyper Text Markup Language</STRONG></LI>
 <LI>Lots of tags</LI>
 <UL>
-<LI>Boilerplate</LI>
+<LI>Boilerplate
 <OL>
 <LI>Doctyple</LI>
 <LI>HTML</LI>
-<LI>Head</LI>
+<LI>Head
 <OL>
 <LI>Title</LI>
 </OL>
+</LI>
 <LI>Body</LI>
 </OL>
+</LI>
 <LI>Headings</LI>
 <LI>Paragraph</LI>
 <LI><EM>em</EM></LI>
