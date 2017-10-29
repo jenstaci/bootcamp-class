@@ -14,7 +14,7 @@
 <H2>HTML</H2>
 <UL>
 <LI>Stands for <STRONG>Hyper Text Markup Language</STRONG></LI>
-<LI>Lots of Tags</LI>
+<LI>Lots of tags</LI>
 <UL>
 <LI>Boilerplate</LI>
 <OL>
@@ -27,7 +27,7 @@
 <LI>Body</LI>
 </OL>
 <LI>Headings</LI>
-<LI>Paragraphs</LI>
+<LI>Paragraph</LI>
 <LI><EM>em</EM></LI>
 <LI><STRONG>strong</STRONG></LI>
 </UL>
