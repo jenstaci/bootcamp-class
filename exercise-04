@@ -25,6 +25,7 @@
 <br>
 <label for="birthday"><strong>Birthday:</strong></label>
 <select id="month" name="birthday">
+<option value="">Month</option>
 <option value="january">January</option>
 <option value="february">February</option>
 <option value="march">March</option>
@@ -37,7 +38,9 @@
 <option value="october">October</option>
 <option value="november">November</option>
 <option value="december">December</option>
+</select>
 <select id="day" name="birthday">
+<option value="">Day</option>
 <option value="1">1</option>
 <option value="2">2</option>
 <option value="3">3</option>
@@ -45,11 +48,20 @@
 <option value="5">5</option>
 </select>
 <select id="year" name="birthday">
+<option value="">Year</option>
 <option value="1974">1974</option>
 <option value="1975">1975</option>
 <option value="1976">1976</option>
 <option value="1977">1977</option>
 <option value="1978">1978</option>
 </select>
+<br>
+<label for="agreement"><strong>I agree to the terms and conditions</strong></label>
+<input id="checkBox" type="checkbox" name="agreement">
+</select>
+<br>
+<label for="button"></label>
+<input id="button" type="submit">
 </form>
 </body>
+</html>
