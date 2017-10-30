@@ -22,6 +22,7 @@
 <input id="email-address" type="email" placeholder="your email" required>
 <label for="password"><strong>Password:</strong></label>
 <input id="password" type="password" placeholder="your password" minlength="5" maxlength="10" required>
+<br>
 <label for="birthday"><strong>Birthday:</strong></label>
 <select id="month" name="birthday">
 <option value="january">January</option>
