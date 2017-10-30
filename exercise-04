@@ -6,25 +6,30 @@
 <body>
 <h1>Register</h1>
 <form action="" method="GET">
+<div>
 <label for="first-name"><strong>First Name:</strong></label>
 <input id="first-name" type="text" name="firstname" placeholder="John" required>
 <label for="last-name"><strong>Last Name:</strong></label>
 <input id="last-name" type="text" name="lastname" placeholder="Smith" required>
-</br>
-<label for="choice1"><strong>Male</strong></label>
-<input id="choice1" type="radio" name="gender" value="male">
-<label for="choice2"><strong>Female</strong></label>
-<input id="choice2" type="radio" name="gender" value="female">
-<label for="choice3"><strong>Other</strong></label>
-<input id="choice3" type="radio" name="gender" value="other">
-<br>
+</div>
+<div>
+<label for="choice-male"><strong>Male</strong></label>
+<input id="choice-male" type="radio" name="gender" value="male">
+<label for="choice-female"><strong>Female</strong></label>
+<input id="choice-female" type="radio" name="gender" value="female">
+<label for="choice-other"><strong>Other</strong></label>
+<input id="choice-other" type="radio" name="gender" value="other">
+</div>
+<div>
 <label for="email-address"><strong>Email:</strong></label>
 <input id="email-address" type="email" placeholder="your email" required>
 <label for="password"><strong>Password:</strong></label>
 <input id="password" type="password" placeholder="your password" minlength="5" maxlength="10" required>
-<br>
-<label for="birthday"><strong>Birthday:</strong></label>
-<select id="month" name="birthday">
+</div>
+<div>
+<label> 
+<strong>Birthday:</strong>
+<select id="month" name="month">
 <option value="">Month</option>
 <option value="january">January</option>
 <option value="february">February</option>
@@ -39,7 +44,7 @@
 <option value="november">November</option>
 <option value="december">December</option>
 </select>
-<select id="day" name="birthday">
+<select id="day" name="day">
 <option value="">Day</option>
 <option value="1">1</option>
 <option value="2">2</option>
@@ -47,7 +52,7 @@
 <option value="4">4</option>
 <option value="5">5</option>
 </select>
-<select id="year" name="birthday">
+<select id="year" name="year">
 <option value="">Year</option>
 <option value="1974">1974</option>
 <option value="1975">1975</option>
@@ -55,13 +60,13 @@
 <option value="1977">1977</option>
 <option value="1978">1978</option>
 </select>
-<br>
+</label>
+</div>
 <label for="agreement"><strong>I agree to the terms and conditions</strong></label>
 <input id="checkBox" type="checkbox" name="agreement">
 </select>
 <br>
-<label for="button"></label>
-<input id="button" type="submit">
+<input type="submit" value="submit">
 </form>
 </body>
 </html>
